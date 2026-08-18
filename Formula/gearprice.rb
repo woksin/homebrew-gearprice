@@ -2,28 +2,28 @@
 class Gearprice < Formula
   desc "What guitar gear costs on Reverb right now, and what class it sits in"
   homepage "https://github.com/woksin/gearprice"
-  version "0.2.1"
+  version "0.2.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/woksin/gearprice/releases/download/v0.2.1/gearprice-macos-arm64.tar.gz"
-      sha256 "b529079a8500292efe0e7f87f0b6e5d80f65c41fb72d5d076150b090946d5f90"
+      url "https://github.com/woksin/gearprice/releases/download/v0.2.2/gearprice-macos-arm64.tar.gz"
+      sha256 "fbaec234fdaddc84d772e2a5390bf77d412e619db3fad689155a348f0ed3863e"
     end
     on_intel do
-      url "https://github.com/woksin/gearprice/releases/download/v0.2.1/gearprice-macos-x86_64.tar.gz"
-      sha256 "90ccc7783f9ebfba319b65c2a7bff1e26f7538c20ba82ba18fb2c4c5c4d4edd6"
+      url "https://github.com/woksin/gearprice/releases/download/v0.2.2/gearprice-macos-x86_64.tar.gz"
+      sha256 "3f514167d991b04e92ecf2143f1846c9c8026852db3fc1ee961198b7b5a9d652"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/woksin/gearprice/releases/download/v0.2.1/gearprice-linux-arm64.tar.gz"
-      sha256 "5fb05d1579ca45ec3ed72a98a9b2c54158640c9ecf9ad7b984d0182af068e086"
+      url "https://github.com/woksin/gearprice/releases/download/v0.2.2/gearprice-linux-arm64.tar.gz"
+      sha256 "67591602b0f97fb58b84ce5282084badc6e773309f6c530e6e1ac49941fc71f5"
     end
     on_intel do
-      url "https://github.com/woksin/gearprice/releases/download/v0.2.1/gearprice-linux-x86_64.tar.gz"
-      sha256 "c68e99429bf909a78ca2000d019b897eb21afcf0a80bda299ba9dbf00adeaa5f"
+      url "https://github.com/woksin/gearprice/releases/download/v0.2.2/gearprice-linux-x86_64.tar.gz"
+      sha256 "e950df1e6b76100619d4eaa0f8f0c8215d432e3446e0d711239b6973e315543a"
     end
   end
 
